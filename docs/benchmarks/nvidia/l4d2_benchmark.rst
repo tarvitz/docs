@@ -16,6 +16,12 @@
 	:target: ../screens/nvidia/steamos/l4d2/07.jpg
 .. image:: ../screens/nvidia/steamos/l4d2/thumbnails/08.jpg
 	:target: ../screens/nvidia/steamos/l4d2/08.jpg
+.. image:: ../screens/nvidia/steamos/l4d2/thumbnails/09.jpg
+	:target: ../screens/nvidia/steamos/l4d2/09.jpg
+.. image:: ../screens/nvidia/steamos/l4d2/thumbnails/10.jpg
+	:target: ../screens/nvidia/steamos/l4d2/10.jpg
+.. image:: ../screens/nvidia/steamos/l4d2/thumbnails/11.jpg
+	:target: ../screens/nvidia/steamos/l4d2/11.jpg
 
 **Ubuntu benchmark**:
 
