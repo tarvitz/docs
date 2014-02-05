@@ -12,20 +12,21 @@ Steam in-home streaming как это работает и нужно ли оно
 
 Железо и Софт
 -------------
-Steam in-home streaming будет тестироваться на следующей аппаратной конфигурации:
-Windows 7/SteamOS::
+Steam in-home streaming будет тестироваться на следующей аппаратной конфигурации.
 
-	* Intel Core i7 4770k
-	* 8 GB RAM DDR3
-	* ATI/AMD R9 280x 3GB DDR5
+**Windows 7/SteamOS**::
 
-Gentoo/Windows 8::
+    * Intel Core i7 4770k
+    * 8 GB RAM DDR3
+    * ATI/AMD R9 280x 3GB DDR5
 
-	* Intel Core i5
-	* 6GB RAM DDR3
-	* Nvidia 730GTX
+**Gentoo**::
 
- Также помимо ATI/AMD R9 280x будет использованы: Nvidia GTX650 Ti, Radeon HD6850 но несколько в меньшей степени.
+    * Intel Core i5
+    * 6GB RAM DDR3
+    * Nvidia 730GTX
+
+Также помимо **ATI/AMD R9 280x** будет использованы: *Nvidia GTX650 Ti*, *Radeon HD6850* но несколько в меньшей степени.
 
 Общие сведения о стриминге
 --------------------------
