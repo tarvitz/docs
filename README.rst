@@ -1,6 +1,7 @@
 Docs
 ====
 SteamOS, In-home streaming and other useful pop-articles documentation and tools for its building
+
 .. contents:: :local:
     :depth: 3
 
@@ -39,3 +40,11 @@ Build documentation
 ~~~~~~~~~~~~~~~~~~~
 You can use ``make html`` for documentation build. It uses standard C-way files building so there's no need to rebuild
 whole documents storage everytime.
+
+Language and localization
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Official language of whole documentation sets to **Russian**, any localization could be possible without any author permission ask
+
+LICENSE
+~~~~~~~
+CC BY 3.0
