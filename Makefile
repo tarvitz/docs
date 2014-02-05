@@ -8,11 +8,11 @@ all:
 	@echo "targets: html"
 
 %.html: %.rst
-	$(RST2HTML) ${FLAGS} $< > $@
+	$(RST2HTML) ${FLAGS} $< $@
 	${TOOL_CHAIN} $@
 
 clean:
 	rm -f ${HTML_MODULES}
 
 html: ${HTML_MODULES}
-	@echo "done"
+	@echo "building html documents is done"
