@@ -1,3 +1,6 @@
+.. include:: tools/github_ribbon.rst
+.. include:: steamos/index.rst
+
 Предварительный взгляд на SteamOS
 =================================
 .. contents:: :local:

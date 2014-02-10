@@ -1,3 +1,9 @@
 [submodule "js/colorbox"]
 	path = js/colorbox
 	url = https://github.com/jackmoore/colorbox.git
+[submodule "github-fork-ribbon"]
+	path = github-fork-ribbon
+	url = https://github.com/simonwhitaker/github-fork-ribbon-css.git
+[submodule "css/github-fork-ribbon"]
+	path = css/github-fork-ribbon
+	url = https://github.com/simonwhitaker/github-fork-ribbon-css.git

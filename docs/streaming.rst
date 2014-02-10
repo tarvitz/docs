@@ -186,47 +186,159 @@ FullHD или HD?
 Список игр
 ~~~~~~~~~~
 *если вас заинтересует какая-то конкретная игра, которой нет в списке, то дайте об этом знать, я постараюсь её тоже прогнать, к сожалению я не имею возможности прогонять всю свою библиотеку, потому что тест затянется на очень большое время + сейчас я очень ограничен в возможностях по загрузке*
-Windows 7 (в скобочках доступные игры в SteamOS означают, что игра будет стримиться еще и со SteamOS)::
-
-  * Warhammer 40.000: Dawn of War 2 Retribution
-  * Warhammer 40.000: Space Marine
-  * Company of Heroes 2
-  * Mortal Kombat 9
-  * Batman: Arkham Origins
-  * Dark Souls: Prepare to Die edition
-  * DarkSiders II
-  * Dead Island
-  * Skyrim
-  * Dota 2 (SteamOS)
-  * Left 4 Dead 2 (SteamOS)
-  * Team Fortress 2 (SteamOS)
-  * Half-Life 2 (SteamOS)
-  * Portal 2
-  * Torchlight 2
-  * Brutal Legend (SteamOS)
-  * Alan Wake
-  * Chaos on Deponia
-  * Fallout, Fallout 2
-  * Fallout: New Vegas
-  * Counter Strike: Global Offensive
-  * Bioshock
-  * Magicka
-  * Castlevania: Lords of Shadow
-  * Deadlight
-  * FEZ (SteamOS)
-  * Prime World
-  * DeathSpank
-  * The Witcher
-  * Serious Sam 3: BFE (SteamOS)
-  * Hitman absolution
-  * Don't Starve (SteamOS)
-  * Commandos: Beyond the Call of Duty
-  * Metro 2033
-  * Metro Last Light (SteamOS only)
-  * Natural Selection 2 (SteamOS)
+Windows 7 (в скобочках доступные игры в SteamOS означают, что игра будет стримиться еще и со SteamOS)
 
 Также будут попытки запустить что-то не из Steam библиотеки, список уже будет опубликован в статье.
 + Точно будут и другие игры в списке, которые будут стримиться с ноутбучного железа.
+
+Warhammer 40.000: Dawn of War 2 Retribution
+```````````````````````````````````````````
+<test data>
+
+Warhammer 40.000: Space Marine
+``````````````````````````````
+В целом мне удалось даже пройти компанию, с помощью стриминга. В целом замечаний особо нет, кроме одной. 1080p в основном идет при частоте 30 fps в авто режиме и 45-50, если частоту кадров устанавливать в 60fps. Также можно отметить тот факт, что при при любой внезапной загрузки компа качество сильно падает до неиграбельного состояния. Опыт оцениваю как положительный.
+
+
+Company of Heroes 2
+```````````````````
+<test data>
+
+Mortal Kombat 9
+```````````````
+<test data>
+
+Batman: Arkham Origins
+``````````````````````
+<test data>
+
+Dark Souls: Prepare to Die edition
+``````````````````````````````````
+<test data>
+
+DarkSiders II
+`````````````
+<test data>
+
+Dead Island
+```````````
+<test data>
+
+Skyrim
+``````
+<test data>
+
+Dota 2 (SteamOS)
+````````````````
+<test data>
+
+Left 4 Dead 2 (SteamOS)
+```````````````````````
+<test data>
+
+Team Fortress 2 (SteamOS)
+`````````````````````````
+<test data>
+
+Half-Life 2 (SteamOS)
+`````````````````````
+<test data>
+
+Portal 2
+````````
+<test data>
+
+Torchlight 2
+````````````
+<test data>
+
+Brutal Legend (SteamOS)
+```````````````````````
+<test data>
+
+Alan Wake
+`````````
+<test data>
+
+Chaos on Deponia
+````````````````
+<test data>
+
+Fallout, Fallout 2
+``````````````````
+<test data>
+
+Fallout: New Vegas
+``````````````````
+<test data>
+
+Counter Strike: Global Offensive
+````````````````````````````````
+<test data>
+
+Bioshock
+````````
+<test data>
+
+Magicka
+```````
+<test data>
+
+Castlevania: Lords of Shadow
+````````````````````````````
+<test data>
+
+Deadlight
+`````````
+<test data>
+
+FEZ (SteamOS)
+`````````````
+<test data>
+
+Prime World
+```````````
+<test data>
+
+DeathSpank
+``````````
+<test data>
+
+The Witcher
+```````````
+<test data>
+
+The Witcher 2
+`````````````
+<test data>
+
+Serious Sam 3: BFE (SteamOS)
+````````````````````````````
+<test data>
+
+Hitman absolution
+`````````````````
+<test data>
+
+Don't Starve (SteamOS)
+``````````````````````
+<test data>
+
+Commandos: Beyond the Call of Duty
+``````````````````````````````````
+<test data>
+
+Metro 2033
+``````````
+<test data>
+
+Metro Last Light (SteamOS only)
+```````````````````````````````
+<test data>
+
+Natural Selection 2 (SteamOS)
+`````````````````````````````
+<test data>
 
 Итоги тестирования
 ------------------

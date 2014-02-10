@@ -23,6 +23,19 @@ JS_INJECTION = """
 </script>
 """
 
+FORK_ME_ON = """
+    <div class="github-fork-ribbon-wrapper right">
+        <div class="github-fork-ribbon bg-black">
+            <a href="https://github.com/tarvitz/docs">Fork me on GitHub</a>
+        </div>
+    </div>
+    <div class="github-fork-ribbon-wrapper left">
+        <div class="github-fork-ribbon">
+            <a href="https://github.com/tarvitz/docs">Читай на <img src='../thirdparty/stopgame.png'>StopGame</a>
+        </div>
+    </div>
+"""
+
 
 def usage():
     print("%s <file.html> [file2.html file3.html .. file_n.html]"
@@ -48,10 +61,10 @@ def main():
         usage()
     for i in xrange(1, len(sys.argv)):
         document = open(sys.argv[i]).read()
-        idx = document.index('</body>')
-        document = insert_into(document, JS_INJECTION, idx)
-        idx = document.index('</head>')
-        document = insert_into(document, CSS_INJECTION, idx)
+        body_close_idx = document.index('</body>')
+        document = insert_into(document, JS_INJECTION, body_close_idx)
+        head_close_idx = document.index('</head>')
+        document = insert_into(document, CSS_INJECTION, head_close_idx)
         open(sys.argv[i], 'w').write(document)
 
 if __name__ == '__main__':

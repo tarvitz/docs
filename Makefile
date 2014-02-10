@@ -1,6 +1,6 @@
 MODULES = docs/steamos.rst docs/streaming.rst
 HTML_MODULES = $(MODULES:.rst=.html)
-FLAGS="--stylesheet=css/bootstrap.min.css"
+CSS_INCLUDE=css/bootstrap.min.css,css/github-fork-ribbon/gh-fork-ribbon.css,css/style.css
 RST2HTML=rst2html.py
 TOOL_CHAIN=tools/js_attachments.py
 
@@ -8,7 +8,7 @@ all:
 	@echo "targets: html"
 
 %.html: %.rst
-	$(RST2HTML) ${FLAGS} $< $@
+	$(RST2HTML) --stylesheet=${CSS_INCLUDE} ${FLAGS} $< $@
 	${TOOL_CHAIN} $@
 
 clean:
