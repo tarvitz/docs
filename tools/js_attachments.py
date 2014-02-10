@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding: utf-8
 """
 boosts html version with js/css extensions::
 
