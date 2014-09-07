@@ -60,7 +60,5 @@ Gentoo x64:
 
 Полезная информация и источники
 -------------------------------
-.. rubric:: Примечание
-
 
 .. [#steamdb] `steamdb.info <http://steamdb.info/linux>`_

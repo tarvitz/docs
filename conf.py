@@ -14,11 +14,21 @@
 
 import sys
 import os
+from datetime import datetime
+
+now = datetime.now()
 sys.path.insert(1, '../../code/python/sphinxcontrib_stopgame/')
 try:
     import sphinx_rtd_theme
 except ImportError:
     sphinx_rtd_theme = None
+
+
+def copy_right():
+    if now.year > 2014:
+        return '2014-%s' % now.year
+    return '2014'
+
 
 def setup(app):
     app.add_config_value('is_stopgame_build', False, False)
@@ -56,7 +66,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Docs'
-copyright = u'2014, Saul Tarvitz'
+copyright = u'%(copy)s, Saul Tarvitz, CC BY 3.0' % {'copy': copy_right()}
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -119,7 +129,7 @@ html_theme = 'default'
 
 if sphinx_rtd_theme:
     html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path(), ]
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -186,7 +196,7 @@ html_static_path = ['_static']
 #html_show_sphinx = True
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = True
+html_show_copyright = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
