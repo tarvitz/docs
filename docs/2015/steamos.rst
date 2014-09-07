@@ -58,14 +58,6 @@ Gentoo x64:
     SteamOS, а также совместимых с ней систем.
 
 
-**Спойлер**
-
-.. spoiler:: mememe
-
-    .. image:: http://images.stopgame.ru/uploads/gallery/279871/3152/mUtdj.jpeg
-    **Спойлер**
-
-
 Полезная информация и источники
 -------------------------------
 .. rubric:: Примечание
