@@ -1,4 +1,5 @@
 .. compound::
+
     :class: github-fork-ribbon-wrapper left
 
     .. compound::
