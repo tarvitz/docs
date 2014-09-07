@@ -18,8 +18,7 @@ Project dependencies
 requried::
 
     * python-2.6, python-3.x
-    * rst2pdf (*and its dependencies*)
-    * PIL or Pillow (for simple watermark script use)
+    * sphinx
 
 optional::
 
@@ -38,8 +37,12 @@ Build tools installation
 
 Build documentation
 -------------------
-You can use ``make html`` for documentation build. It uses standard C-way files building so there's no need to rebuild
-whole documents storage everytime.
+Using sphinx you can simply build for any suitable format you want.
+Type ``make html`` to build html files, for more information use ``make help``:
+
+.. code-block:: bash
+
+    user@locahost$ make html
 
 Language and localization
 -------------------------

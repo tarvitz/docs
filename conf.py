@@ -16,6 +16,10 @@ import sys
 import os
 sys.path.insert(1, '../../code/python/sphinxcontrib_stopgame/')
 
+
+def setup(app):
+    app.add_config_value('is_stopgame_build', False, False)
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -73,7 +77,10 @@ release = '1.0'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = [
-    '_build', 'working', 'docs/0214', 've', 'README.rst'
+    '_build', 'working', 've',
+    'README.rst',
+    'docs/2014',
+    'docs/tools'
 ]
 
 # The reST default role (used for this markup: `text`) to use for all
@@ -263,3 +270,5 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+is_stopgame_build = False
